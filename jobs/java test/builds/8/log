@@ -1,0 +1,37 @@
+Started by user [8mha:////4Ic9d4KifVjon6Tq5j1UJtZX59hRcayjMQxmW0aFUogYAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYB/dLi1CL9xKSMzOKM1GxjIwD3o1ayxQAAAA==[0mabhishek rana
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/abhishek3241/hello-world.git
+ > git init /var/lib/jenkins/workspace/java test # timeout=10
+Fetching upstream changes from https://github.com/abhishek3241/hello-world.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/abhishek3241/hello-world.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhishek3241/hello-world.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhishek3241/hello-world.git # timeout=10
+Fetching upstream changes from https://github.com/abhishek3241/hello-world.git
+ > git fetch --tags --force --progress -- https://github.com/abhishek3241/hello-world.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 63e70b6cf6572e9c3cefee77934545215a9c31ae (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 63e70b6cf6572e9c3cefee77934545215a9c31ae # timeout=10
+Commit message: "java"
+First time build. Skipping changelog.
+[java test] $ /bin/sh -xe /tmp/jenkins3715247468839104170.sh
++ cd /var/lib/jenkins
++ javac Hello.java
++ java Hello
+Hello, World1
+Hello, World2
+Hello, World3
+Hello, World4
+Hello, World5
+Hello, World6
+Hello, World7
+Hello, World8
+Hello, World9
+Hello, World10
+Finished: SUCCESS
