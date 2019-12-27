@@ -1,0 +1,8 @@
+Started by user [8mha:////4Ic9d4KifVjon6Tq5j1UJtZX59hRcayjMQxmW0aFUogYAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYB/dLi1CL9xKSMzOKM1GxjIwD3o1ayxQAAAA==[0mabhishek rana
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java test
+[java test] $ /bin/sh -xe /tmp/jenkins497938627655394343.sh
++ cd /home/ec2-user/javaproject
+/tmp/jenkins497938627655394343.sh: line 2: cd: /home/ec2-user/javaproject: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
