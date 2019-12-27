@@ -1,0 +1,10 @@
+Started on Dec 27, 2019 4:53:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 63e70b6cf6572e9c3cefee77934545215a9c31ae (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/abhishek3241/hello-world.git # timeout=10
+Found 1 remote heads on https://github.com/abhishek3241/hello-world.git
+[poll] Latest remote head revision on refs/heads/master is: f02ee3c4ea48c196cfb44d5a11cfd26aae77d7f4
+Done. Took 94 ms
+Changes found
